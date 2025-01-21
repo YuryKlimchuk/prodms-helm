@@ -37,6 +37,16 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/basic-1.0.0-SNAPSHOT/basic-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
+  - apiVersion: v2
+    appVersion: 1.0.0-SNAPSHOT
+    created: "2025-01-21T16:15:42.857723656Z"
+    description: A Helm chart for Kubernetes
+    digest: 79130fa6747109024d9bd2fa1b2fbb2f41493b70bbb8f37ffce28c0f092d1449
+    name: basic
+    type: application
+    urls:
+    - https://github.com/YuryKlimchuk/prodms-helm/releases/download/basic-1.0.0-SNAPSHOT/basic-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
   warehouse:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -113,4 +123,4 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/warehouse-1.0.0-SNAPSHOT/warehouse-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
-generated: "2025-01-21T16:07:47.777771606Z"
+generated: "2025-01-21T16:15:42.857752759Z"
