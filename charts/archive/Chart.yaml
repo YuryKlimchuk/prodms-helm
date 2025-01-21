@@ -1,0 +1,12 @@
+apiVersion: v2
+name: archive
+description: A Helm chart for prodms-archive microservice
+type: application
+version: 1.0.0-SNAPSHOT
+appVersion: "1.16.0"
+
+dependencies:
+  - name: basic
+    version: 1.0.0-SNAPSHOT
+    condition: basicEnabled
+    repository: "https://yuryklimchuk.github.io/prodms-helm-repo/"
