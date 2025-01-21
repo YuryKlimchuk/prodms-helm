@@ -10,3 +10,4 @@ dependencies:
     version: 1.0.0-SNAPSHOT
     condition: basicEnabled
     repository: "https://yuryklimchuk.github.io/prodms-helm"
+

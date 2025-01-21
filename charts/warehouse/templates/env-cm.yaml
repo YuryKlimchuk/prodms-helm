@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.basic.app.id }}-env-cm
+  namespace: {{ .Release.namespace }}
+data:
+  KAFKA_URL: {{ required "'kafka.url' parameter is required" .Values.kafka.url | quote }}
+  MONGO_CONNECTION_STRING: {{ required "'mongo.connection.string' parameter is required" .Values.mongo.connection.string | quote }}
+  MONGO_CONNECTION_MODE: {{ required "'mongo.connection.mode' parameter is required" .Values.mongo.connection.mode | quote }}
+
