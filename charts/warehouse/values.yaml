@@ -16,4 +16,5 @@ kafka:
   url: "prodms-kafka-cluster-kafka-bootstrap.prodms-infra:9092"
 mongo:
   connection:
-    host: "prodms-mongodb-0.prodms-mongodb-svc.prodms-infra.svc.cluster.local"
+    mode: 15
+    string: "mongodb://mongodb-user:mongodb-pwd@prodms-mongodb-0.prodms-mongodb-svc.prodms-infra.svc.cluster.local:27017/warehouse?replicaSet=prodms-mongodb&ssl=false"
