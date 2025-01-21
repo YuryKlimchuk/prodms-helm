@@ -16,4 +16,4 @@ kafka:
   url: "prodms-kafka-cluster-kafka-bootstrap.prodms-infra:9092"
 mongo:
   connection:
-    host: "prodms-mongodb-svc.prodms-infra"
+    host: "prodms-mongodb-0.prodms-mongodb-svc.prodms-infra.svc.cluster.local"
