@@ -5,4 +5,4 @@ metadata:
   namespace: {{ .Release.namespace }}
 data:
   KAFKA_URL: {{ required "'kafka.url' parameter is required" .Values.kafka.url | quote }}
-  MONGO_CONNECTION_HOST: {{ required "'mongo.connection.host' parameter is required" .Values.connection.mongo.host | quote }}
+  MONGO_CONNECTION_HOST: {{ required "'mongo.connection.host' parameter is required" .Values.mongo.connection.host | quote }}
