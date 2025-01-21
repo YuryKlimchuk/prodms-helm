@@ -43,4 +43,19 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/warehouse-1.0.0-SNAPSHOT/warehouse-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
-generated: "2025-01-21T08:47:44.283882571Z"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-21T11:06:09.144344148Z"
+    dependencies:
+    - condition: basicEnabled
+      name: basic
+      repository: https://yuryklimchuk.github.io/prodms-helm
+      version: 1.0.0-SNAPSHOT
+    description: A Helm chart for prodms-warehouse microservice
+    digest: b061a576b874f2059e598779d24feeca615ace776debc101740664398f629ecb
+    name: warehouse
+    type: application
+    urls:
+    - https://github.com/YuryKlimchuk/prodms-helm/releases/download/warehouse-1.0.0-SNAPSHOT/warehouse-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
+generated: "2025-01-21T11:06:09.144359416Z"
