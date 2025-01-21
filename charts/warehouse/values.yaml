@@ -14,3 +14,6 @@ basic:
 
 kafka:
   url: "prodms-kafka-cluster-kafka-bootstrap.prodms-infra:9092"
+mongo:
+  connection:
+    host: "prodms-mongodb-svc.prodms-infra"
