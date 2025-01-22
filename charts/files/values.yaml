@@ -1,0 +1,13 @@
+basicEnabled: true
+basic:
+  replicaCount: 1
+  
+  image:
+    repository: "docker.io"
+    tag: "prodms/files"
+    version: "1.0.0-SNAPSHOT"
+    pullPolicy: IfNotPresent
+  
+  app:
+    id: "files"
+    port: 8080
