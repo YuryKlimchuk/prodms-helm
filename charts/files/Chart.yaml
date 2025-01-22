@@ -1,6 +1,6 @@
 apiVersion: v2
-name: warehouse
-description: A Helm chart for prodms-warehouse microservice
+name: files
+description: A Helm chart for prodms-files microservice
 type: application
 version: 1.0.0-SNAPSHOT
 appVersion: "1.0.0-SNAPSHOT"
