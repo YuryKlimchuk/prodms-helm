@@ -77,6 +77,22 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/basic-1.0.0-SNAPSHOT/basic-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
+  files:
+  - apiVersion: v2
+    appVersion: 1.0.0-SNAPSHOT
+    created: "2025-01-22T12:58:44.879849275Z"
+    dependencies:
+    - condition: basicEnabled
+      name: basic
+      repository: https://yuryklimchuk.github.io/prodms-helm
+      version: 1.0.0-SNAPSHOT
+    description: A Helm chart for prodms-files microservice
+    digest: 4dc5d7b8555ee5ca5ba7b8e22f1d439a88227cb447357ba3f18f4e7539c8eb00
+    name: files
+    type: application
+    urls:
+    - https://github.com/YuryKlimchuk/prodms-helm/releases/download/files-1.0.0-SNAPSHOT/files-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
   warehouse:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -183,4 +199,4 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/warehouse-1.0.0-SNAPSHOT/warehouse-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
-generated: "2025-01-21T16:50:40.118330615Z"
+generated: "2025-01-22T12:58:44.879890022Z"
