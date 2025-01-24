@@ -1,5 +1,29 @@
 apiVersion: v1
 entries:
+  apps-facade:
+  - apiVersion: v2
+    appVersion: 1.0.0-SNAPSHOT
+    created: "2025-01-24T09:10:40.012030965Z"
+    dependencies:
+    - condition: archiveEnabled
+      name: archive
+      repository: https://yuryklimchuk.github.io/prodms-helm
+      version: 1.0.0-SNAPSHOT
+    - condition: warehouseEnabled
+      name: warehouse
+      repository: https://yuryklimchuk.github.io/prodms-helm
+      version: 1.0.0-SNAPSHOT
+    - condition: filesEnabled
+      name: files
+      repository: https://yuryklimchuk.github.io/prodms-helm
+      version: 1.0.0-SNAPSHOT
+    description: A Helm chart for prodms system deploying. Contains all microservices.
+    digest: 0ebe136b9a13b3e9492f62df0fe31fac2772436b372b8cd2c41c359bbe8f0813
+    name: apps-facade
+    type: application
+    urls:
+    - https://github.com/YuryKlimchuk/prodms-helm/releases/download/apps-facade-1.0.0-SNAPSHOT/apps-facade-1.0.0-SNAPSHOT.tgz
+    version: 1.0.0-SNAPSHOT
   archive:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -214,4 +238,4 @@ entries:
     urls:
     - https://github.com/YuryKlimchuk/prodms-helm/releases/download/warehouse-1.0.0-SNAPSHOT/warehouse-1.0.0-SNAPSHOT.tgz
     version: 1.0.0-SNAPSHOT
-generated: "2025-01-22T13:02:17.586164418Z"
+generated: "2025-01-24T09:10:40.012061031Z"
